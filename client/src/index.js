@@ -9,7 +9,7 @@ import {
   persistStore,
   persistReducer,
   FLUSH,
-  REHYDREATE,
+  REHYDRATE,
   PAUSE,
   PERSIST,
   PURGE,
@@ -25,7 +25,7 @@ const store = configureStore({
   middleware:(getDefaultMiddleware)=>
     getDefaultMiddleware({
       serializableCheck:{
-        ignoredActions:[FLUSH,REHYDREATE,PAUSE,PERSIST,PURGE,REGISTER],
+        ignoredActions:[FLUSH,REHYDRATE,PAUSE,PERSIST,PURGE,REGISTER],
       },
     }),
 });
