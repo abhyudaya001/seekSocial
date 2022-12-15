@@ -1,4 +1,4 @@
-const LoginPage =()=>{
-    return <div>loginPage</div>;
+const LoginPage = () => {
+  return <div>Hello</div>;
 };
 export default LoginPage;
